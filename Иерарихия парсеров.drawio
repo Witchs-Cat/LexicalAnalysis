@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2023-05-25T19:40:39.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36" etag="45a7CSGEH3_V1W6TDQv3" version="21.3.4" type="device">
+  <diagram name="Страница 1" id="yrQ-5HZIKnjVvDQGYu4v">
+    <mxGraphModel dx="1143" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i9YaaEJ3QUZk85MsiHEV-1" target="i9YaaEJ3QUZk85MsiHEV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i9YaaEJ3QUZk85MsiHEV-1" target="i9YaaEJ3QUZk85MsiHEV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i9YaaEJ3QUZk85MsiHEV-1" target="i9YaaEJ3QUZk85MsiHEV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="i9YaaEJ3QUZk85MsiHEV-1" target="i9YaaEJ3QUZk85MsiHEV-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="310" />
+              <mxPoint x="195" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="i9YaaEJ3QUZk85MsiHEV-1" target="i9YaaEJ3QUZk85MsiHEV-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="310" />
+              <mxPoint x="414" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="i9YaaEJ3QUZk85MsiHEV-1" target="i9YaaEJ3QUZk85MsiHEV-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="290" />
+              <mxPoint x="595" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-1" value="BaseTokenRegex" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-2" value="CharConstantRegex" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-4" value="NumericConstantRegex" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-5" value="KeywordOrIdentifierRegex" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-6" value="LiteralRegex" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-7" value="PunctuatorRegex" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i9YaaEJ3QUZk85MsiHEV-14" value="OperatorRegex" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

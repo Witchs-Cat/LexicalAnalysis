@@ -1,0 +1,23 @@
+#include "Analyzer.h"
+class Arbuz
+{
+};
+
+//scsdfsd
+/* 
+dsfsf
+*/
+
+int main()
+{
+	Arbuz arbus;
+	for(int i = 0x13; i < 12; i++)
+	{
+		if(i == '\v')
+			continue;
+	}
+	int z = -1;
+	undf;
+	"Hello World";
+	return 0;
+}

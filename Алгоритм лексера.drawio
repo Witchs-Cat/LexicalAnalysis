@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net" modified="2023-05-25T19:04:39.096Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36" etag="QJ4HKmqfmfssj2y3A6Bb" version="21.3.4" type="device">
+  <diagram name="Страница 1" id="d4FkhzDm0dElPoTRb9qm">
+    <mxGraphModel dx="1143" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-1" target="GyAtt9mWyOSctv8jbvV5-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-1" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314.75" y="150" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-3" target="GyAtt9mWyOSctv8jbvV5-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-3" value="Получение входной последовательности символов." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="233.75" y="190" width="212.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-14" target="GyAtt9mWyOSctv8jbvV5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-14" value="Пропустить пробельные символы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="510" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-15" target="GyAtt9mWyOSctv8jbvV5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-15" value="Пропустить комментарии" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="570" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-17" target="GyAtt9mWyOSctv8jbvV5-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="454" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="437" y="685" />
+              <mxPoint x="437" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-24" value="0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-17" target="GyAtt9mWyOSctv8jbvV5-43">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="327.9075" y="739.79" as="sourcePoint" />
+            <mxPoint x="338.7549999999999" y="760" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-17" value="Комментарии были пропущены?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261.25" y="620" width="157.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-21" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="411.25" y="663" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-40" target="GyAtt9mWyOSctv8jbvV5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-40" value="Список регулярных выражений _parsers = [&lt;br&gt;Регулярное выражение оператора,&lt;br&gt;Регулярное выражение пунктуатора,&lt;br&gt;Регулярное выражение числа,&lt;br&gt;Регулярное выражение литералы,&lt;br&gt;Регулярное выражение ключевого слова или константы]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-43" target="GyAtt9mWyOSctv8jbvV5-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-43" value="Выбираем первое регулярное выражение из _parsers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269.75" y="750" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-44" target="GyAtt9mWyOSctv8jbvV5-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-44" value="Проверяем последовательность символов на совпадение регулярному выражению" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="820" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-51" value="0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-46" target="GyAtt9mWyOSctv8jbvV5-50">
+          <mxGeometry x="-0.6722" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-54" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-46" target="GyAtt9mWyOSctv8jbvV5-53">
+          <mxGeometry x="0.4097" y="15" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="960" />
+              <mxPoint x="190" y="960" />
+              <mxPoint x="190" y="1070" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-46" value="Соответствует ли хотя бы часть последовательности символов регулярному выражению?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209.88" y="900" width="260.25" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-49" target="GyAtt9mWyOSctv8jbvV5-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-49" value="Выбираем следующее регулярное выражение из _parsers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441.25" y="825" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-52" value="0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-50" target="GyAtt9mWyOSctv8jbvV5-49">
+          <mxGeometry x="-0.9684" y="18" relative="1" as="geometry">
+            <mxPoint x="570" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="511" y="1098" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-56" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-50" target="GyAtt9mWyOSctv8jbvV5-57">
+          <mxGeometry x="0.1574" y="9" relative="1" as="geometry">
+            <mxPoint x="580" y="1040" as="targetPoint" />
+            <mxPoint x="-1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-50" value="Были выбраны все регулярные выражения?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1045" width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-53" target="GyAtt9mWyOSctv8jbvV5-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-53" value="token = (совпадающая част, вид регулярного выражения)&lt;br&gt;result = 1;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1070" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-61" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-57" target="GyAtt9mWyOSctv8jbvV5-62">
+          <mxGeometry x="-0.0988" y="-10" relative="1" as="geometry">
+            <mxPoint x="460" y="1090" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-64" value="0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-57" target="GyAtt9mWyOSctv8jbvV5-63">
+          <mxGeometry x="-0.0132" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-57" value="Пройдена ли вся последовательность символов?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275.01" y="1190" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-58" target="GyAtt9mWyOSctv8jbvV5-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-58" value="result = 0;&lt;br&gt;token;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304.94" y="250" width="70.13" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-62" target="GyAtt9mWyOSctv8jbvV5-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-62" value="result = 0;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1270" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyAtt9mWyOSctv8jbvV5-63" target="GyAtt9mWyOSctv8jbvV5-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-63" value="Выделяем неверную последовательность символов и записываем результат в token.&lt;br&gt;result = 1." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267.25" y="1330" width="145" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="GyAtt9mWyOSctv8jbvV5-65" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319.63" y="1420" width="40.25" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
